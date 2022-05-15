@@ -1,0 +1,19 @@
+server:
+  servlet:
+    context-path: /api
+---
+spring:
+config:
+activate:
+on-profile: local
+redis:
+url: redis://localhost:6379
+---
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+---
+spring:
+  jackson:
+    default-property-inclusion: NON_NULL
