@@ -15,9 +15,9 @@ In terminal run below docker command and Redis will run on local port 6379
 
 After Redis ready run project with Maven commands
 
-* cd PathToJarDirectory
+* cd PathToRootDirectory
 * mvn clean install
-* java -jar tbsl-api-1.0.0.jar
+* java -jar target/tbsl-api-1.0.0.jar
 
 Once the project starts running you can access the Swagger UI's homepage 
 and you can reach API details from there.
