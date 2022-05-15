@@ -23,6 +23,8 @@ public class TeamResponse extends DefaultResponse {
     private int scored;
 
     private int conceded;
+
+    private int ranking;
     private int code;
 
     public TeamResponse(String message, int code) {

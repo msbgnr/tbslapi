@@ -98,4 +98,9 @@ public class DataUtil {
         return resultList;
     }
 
+    public int getTeamRank(String teamName) {
+        Long rank = redisTemplate.opsForZSet().reverseRank(ZSET_KEY, teamName);
+        return rank != null ? rank.intValue() + 1 : -1;
+    }
+
 }
