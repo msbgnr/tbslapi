@@ -1,6 +1,8 @@
+https://github.com/msbgnr/tbslapi.git
+
 # BiggerGames Case Study
 
-Hello, this is an Basketball League API for Bigger Games.
+Hello, this is an Basketball League API.
 
 ### Project Requirements
 
